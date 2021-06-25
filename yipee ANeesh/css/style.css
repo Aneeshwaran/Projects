@@ -1,0 +1,190 @@
+*{
+margin:0px;
+padding:0px;
+}
+.navtop{
+background-color:#fe5000;
+display:flex;
+justify-content:space-between;
+align-items:baseline;
+}
+.bg{
+position:relative;
+}
+.bg i{
+color:white;
+font-size:47px;
+position:absolute;
+
+    right: 12px;
+    bottom: 220px;
+}
+.navtop img{
+width:125px;
+    padding-top: 5px;
+margin-left:20px;
+}
+.menu{
+display:flex;
+list-style-type: none;
+}
+.right img{
+width:65px;
+height:77px;
+    margin-right: 20px;
+}
+.menu li{
+color:white;
+font-size:17px;
+margin:14px;
+}
+.poster img{
+width:100%;
+}
+
+.order p{
+text-align:center;
+font-size:21px;
+font-weight: 600;
+}
+
+.tophd{
+width:70%;
+margin:0 auto;
+text-align:center;
+}
+.tophd img{
+width:250px;
+}
+.bg2{
+position: relative;
+}
+.kido{
+
+position:absolute;
+width: 310px;
+bottom:10px;
+    z-index: -1;
+    left: 7px;
+}
+
+.tophd h1{
+font-size:27px;
+color:#5f249f;
+}
+.list{
+  display: flex;
+    justify-content: center;
+	}
+.list img{
+width:360px;
+  }
+  .center{
+  color:#db291d;
+  text-align:center;
+  padding:24px 0;
+  font-size:25px;
+  }
+  .bg3{
+
+  background-color:#db291d;
+
+  }
+  .show{
+        display: flex;
+    align-items:center;
+	padding: 0 0 90px 0;
+	    justify-content: center;
+}
+
+
+
+  .bg3 img{
+	display: block;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+padding:40px;
+}
+
+   
+
+.lines h1{
+color:white;
+font-size:26px;
+padding:0 0 10px;
+}
+.lines p{
+color:white;
+font-size:15px;
+}
+.lines li{
+
+color:white;
+font-size:17px;
+padding:4px 0;
+}
+
+
+	.bg4{
+background-image:url("../img/curves.png");
+height:300px;
+background-size:cover;
+text-align:center;
+margin:40px 0;
+
+}
+
+
+.media img{
+width:185px;
+
+}
+.ad img{
+width:265px;
+padding:34px 0 10px 0;
+}
+.media h2{
+color:#7c2529;
+    padding: 45px 0 18px 0;
+	}
+.bg5{
+background-color:#db291d;
+display:flex;
+justify-content:center;
+text-align:center;
+padding:70px;
+}
+.ad h2{
+color:#7c2529;
+
+}
+.container3 h3{
+color:#ffd700;
+font-size:32px;
+}
+.container3{
+margin:30px;
+}
+.container3 p{
+color:white;
+font-size:18px;
+padding:8px 0;
+}
+.small{
+width:65px;
+height:77px;
+margin:50px;
+}
+.small2{
+width:137px;
+margin:35px;
+height:89px;
+}
+.fixed{
+width:150px;
+position:fixed;
+height:203px;
+right:15px;
+bottom:15px;
+}

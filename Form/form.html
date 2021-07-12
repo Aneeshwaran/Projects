@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title> The Form </title>
+    <script src="index.js"> </script>
+</head>
+
+<body>
+    <div class=navtop>
+        <img class="post" src="img/banner.jpg">
+        <div class="bg">
+                <h2>STUDENT REGISTRATION FORM</h2>
+                <div class="start">
+                    <div class="order">
+                        <label> Name:</label>
+                        <input id="name" type="text">
+                        <p id="nameError"></p>
+                    </div>
+                    <div>
+                        <label> Father Name:</label>
+                        <input id="fatherName" type="text" required>
+                        <p id="faNameError"></p>
+                    </div>
+
+                </div>
+                <label>Address:</label>
+                <input id="address" type="text">
+
+                <div class="person">
+                    <div><label>Gender:</label></div>
+                    <div><input type="radio" name="aneesh">
+                        <label>Male</label>
+                    </div>
+                    <div><input type="radio" name="aneesh">
+                        <label>Female</label>
+                    </div>
+                </div>
+
+
+                <div class="start">
+                    <div class="order">
+                        <label> State:</label>
+                        <select>
+                            <option> Chennai</option>
+                            <option> Mumbai</option>
+                            <option> Kolkata</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label> City:</label>
+                        <select>
+                            <option> Tirunelveli</option>
+                            <option> Madurai</option>
+                            <option> Tenkasi</option>
+                        </select>
+
+                    </div>
+
+                </div>
+                <label>DOB:</label>
+                <input type="date" required>
+                <label>Pincode:</label>
+                <input id="pincode" type="text" pattern="[0-9]{6}" maxlength="6" required>
+                <label>course:</label>
+                <select>
+                    <option> Engineering</option>
+                    <option> Arts</option>
+                    <option> others</option>
+                </select>
+                <label>Email ID:</label>
+                <input id="mail" placeholder="Email address" type="email">
+
+                <div class="button">
+                    <input type="Reset" value="Reset All" id="summa" onclick="ash()">
+                    <input type="submit" value="submit form" id="form" onclick="call()">
+                    <!-- <button className="button" type="submit" onclick="call()">Submit Form</button> -->
+                </div>
+            
+        </div>
+    </div>
+</body>
+
+
+</html>

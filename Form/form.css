@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.navtop{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.post{
+    width: 600px;
+}  
+.bg{
+    background-color: white;
+    padding: 50px;
+}
+
+
+.start{
+  
+    display: flex;
+    justify-content: space-between;
+    
+}   
+
+input[type=text],select{
+    width:100%;
+    border: 1px solid #ebebeb;
+    padding:10px 20px;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+input[type=date]{
+    width:100%;
+    border: 1px solid #ebebeb;
+    padding:10px 20px;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+input[type=email]{
+    width:100%;
+    border: 1px solid #ebebeb;
+    padding:10px 20px;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input [type=radio]{
+    padding: 20px;
+}
+.order{
+    padding-right: 25px;
+}
+.person{
+display: flex;
+flex-direction: row;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.person >div{
+    width:20%;
+}
+
+select{
+    width:100%;
+    border: 1px solid #ebebeb;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 116px;
+}
+input[type=submit]{
+    background-color:#ff6801;
+    padding:10px 45px;
+    font-size: 15px;
+    border: none;
+    color:white;
+   border-color: #ff6801;
+    
+}
+input[type=reset]{
+    background-color:#b3aba6;
+    padding:10px 45px;
+    font-size: 14px;
+    border: none;
+    color:white;
+    margin-right: 8px;
+    border-color:#b3aba6 ;
+}    
+.button{
+ text-align: right; 
+ margin: 50px 0 0 0;  
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/style.js"> </script>
+</head>
+<body>
+    <center>  
+        <h1>The calculator</h1>
+        <table class="size">
+            <tr>
+                <td colspan="5"><input type="text" value="" id='display'></td>
+            </tr>
+            <tr>
+                <td><button onclick="send('7')">7</button></td>
+                <td><button onclick="send('8')">8</button></td>
+                <td><button onclick="send('9')">9</button></td>
+                <td><button onclick="math('/')">/</button></td>
+                <td><button onclick="delet()">AC</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="send('4')">4</button></td>
+                <td><button onclick="send('5')">5</button></td>
+                <td><button onclick="send('6')">6</button></td>
+                <td><button onclick="math('*')">*</button></td>
+                <td><button onclick="back()">&#8592;</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="send('1')">1</button></td>
+                <td><button onclick="send('2')">2</button></td>
+                <td><button onclick="send('3')">3</button></td>
+                <td><button onclick="math('-')">-</button></td>
+                <td rowspan="2"><button id="equal" onclick="solve()">=</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="send ('0')">0</button></td>
+                <td><button onclick="send('.')">.</button></td>
+                <td><button onclick="math('%')">%</button></td>
+                <td><button onclick="math('+')">+</button></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
+
+
+
+
+

@@ -1480,10 +1480,11 @@ input[type=text] {
    
 } */
 .asd {
-    background-color: #dcf8c6;
-
+ background-color: #dcf8c6;
     margin: 10px 0;
     padding: 5px;
+    overflow-wrap: break-word;
+
 }
 
 #chat_part_dot {

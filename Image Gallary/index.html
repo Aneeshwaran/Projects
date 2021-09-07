@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/gallary.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+    <div class="nav_top">
+    <div class="navbar">
+        <div class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text"  placeholder="Search" id="search_box">
+        </div>
+        <h2 class="head">Image Finder</h2>
+        <div class="right">
+            <p class="gridview">Gridview</p>
+            <div class="vl"></div>
+            <p class="tableview">Tableview</p>
+        </div>
+       </div>
+    </div>
+    <div class="structure" id="gridInsert">
+        <div class="compare box1" id="gridElement">
+            <div class="img-border">
+                <img src="http://picsum.photos/669/398?random=123" alt="post" class="pic">
+            </div>
+            <h1 class="search1 nameGrid">Amaranthus caudatus</h1>
+            <p class="descriptionGrid">Lorem Ipsum is simply dum...</p>
+        </div>
+    </div>  
+<div class="table_look">
+    <table id="tableInsert">
+        <tr>
+            <th style="width: 20%">image</th>
+            <th style="width: 25%">Name</th>
+            <th style="width: 55%">Description</th>
+        </tr>
+        <tr id="tableElement" class="compare">
+            <td class="photo"> <img src="http://picsum.photos/669/398?random=123" alt="post" class="img img-border1"></td>
+            <td class="search1 name">Amaranthus caudatus</td>
+            <td class="description">Lorem Ipsum </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

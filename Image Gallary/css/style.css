@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lavender;
+    overflow-y: scroll;
+}
+
+.nav_top {
+    background-color: darkcyan;
+    padding: 10px;
+    z-index: 4;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right {
+    display: flex;
+    cursor: pointer;   
+    color: white;
+}
+
+.first {
+    margin-left: 950px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.search {
+    border: 1px solid black;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+.head { 
+    color: white;
+}
+.search i {
+    margin-left: 5px;
+
+}
+#search_box {
+    padding: 5px;
+    outline: none;
+    border-radius: 31px;
+    border: none;
+
+}
+.structure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pic {
+    max-height: 180px;
+    max-width: 180px;
+}
+
+.box1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    display: flex;
+    margin: 20px 26px;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.box1 h1,
+p {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.structure h1 {
+    margin: 0 0 10px;
+}
+
+table {
+    text-align: left;
+    border-spacing: 0px 10px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+#tableElement {
+    background-color: white;
+}
+
+th {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(245, 237, 125);
+    padding: 20px 20px;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.img-border1 {
+    height: 100%;
+}
+
+.photo {
+    text-align: center;
+    border-right: none;
+    width: 110px;
+    height: 110px;
+}
+
+.name {
+    border-right: none;
+    border-left: none;
+}
+
+.description {
+    border-left: none;
+}
+
+.table_look {
+    display: none;
+}
+
+@media only screen and (max-width: 840px) {
+    .structure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #gridElement {
+        width: 80%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar>div,
+    .navbar>h2 {
+        padding: 10px;
+    }
+}
